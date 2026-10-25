@@ -325,7 +325,7 @@ let Mushroom_Escapist: Sprite = null
 game.setDialogCursor(assets.image`MonkeyCursor`)
 game.setDialogTextColor(15)
 game.showLongText("Welcome to Parallel Panic, a game where you climb up the tower as fast as you can and save your friends!", DialogLayout.Bottom)
-game.showLongText("Snag special orbs for power-ups...", DialogLayout.Bottom)
+game.showLongText("Get special orbs for power-ups...", DialogLayout.Bottom)
 game.showLongText("Use Teleporters to move up...", DialogLayout.Bottom)
 game.showLongText("And use Mushrooms to clear heights!", DialogLayout.Bottom)
 game.showLongText("Good Luck!", DialogLayout.Bottom)
