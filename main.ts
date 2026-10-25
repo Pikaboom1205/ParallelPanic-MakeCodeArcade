@@ -342,8 +342,6 @@ controller.moveSprite(Mushroom_Escapist, 100, 0)
 scene.cameraFollowSprite(Mushroom_Escapist)
 info.setLife(10)
 info.setScore(0)
-music.setVolume(50)
-music.play(music.createSong(assets.song`Parallel Panic - Theme Song`), music.PlaybackMode.LoopingInBackground)
 SetGameEntities()
 game.onUpdate(function () {
     if (Pet_Spawn == true) {
